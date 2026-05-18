@@ -12,7 +12,7 @@
 Most AMP prediction tools ask: *is this peptide antimicrobial?*  
 This project asks: *how does it work?*
 
-Antimicrobial peptides kill bacteria through diverse and often simultaneous mechanisms — membrane disruption, protein synthesis inhibition, cell division interference, metabolic disruption, and more. Standard single-label classifiers collapse this complexity into misleading categories. This project builds a **multi-label** framework that predicts the full mechanistic profile of an AMP from its sequence.
+Antimicrobial peptides kill bacteria through diverse and often simultaneous mechanisms membrane disruption, protein synthesis inhibition, cell division interference, metabolic disruption, and more. Standard single-label classifiers collapse this complexity into misleading categories. This project builds a **multi-label** framework that predicts the full mechanistic profile of an AMP from its sequence.
 
 A key challenge: the training data is historically mislabelled (most AMPs were incorrectly assigned to "membrane disruption" for decades). This codebase includes tools to handle **noisy, partial, and conflicting labels** explicitly.
 
@@ -149,12 +149,4 @@ Multi-label classification requires metrics beyond accuracy:
 - [ ] Ontology-based label hierarchy
 - [ ] Web demo (Gradio/Streamlit)
 
----
 
-## License
-
-MIT — see [LICENSE](LICENSE)
-
----
-
-*This project is developed as a demonstration of the computational approach proposed for the DDLS Doctoral position REF 2026-0192 at Chalmers University of Technology.*
